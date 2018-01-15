@@ -1,4 +1,4 @@
-FROM acuilch/rockyter:next
+FROM aculich/rockyter:next
 
 USER root
 
