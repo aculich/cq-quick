@@ -9,4 +9,4 @@ RUN apt-get update && \
 
 USER $NB_USER
 
-RUN Rscript -e "install.packages('RSQLite', dependencies = TRUE, repos='http://cran.us.r-project.org')"
+RUN conda install -y r-rsqlite=2.0
