@@ -9,4 +9,4 @@ RUN apt-get update && \
 
 USER $NB_USER
 
-RUN conda install -y r-rsqlite=2.0
+RUN conda install -y r-rsqlite=2.0 r-dbplyr
