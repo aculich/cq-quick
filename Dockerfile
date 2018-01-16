@@ -10,3 +10,5 @@ RUN apt-get update && \
 USER $NB_USER
 
 RUN conda install -y r-rsqlite=2.0 r-dbplyr
+COPY *.ipynb /home/jovyan/
+#COPY /srv/app/src/. /home/jovyan
